@@ -105,3 +105,38 @@ a {
     color-scheme: dark;
   }
 }
+
+
+@media screen and (min-width: 500px) {
+  body {
+    max-width: 400px;
+    right: auto !important;
+    left: auto !important;
+    margin: 0 auto !important;
+  }
+
+  .appBar-main {
+    max-width: 400px;
+    right: auto !important;
+    left: auto !important;
+    margin: 0 auto !important;
+
+  }
+}
+
+.cardImg {
+  width: 350px;
+  background-color: #1FA06E;
+  color: #ffff;
+  border-radius: 10px;
+  z-index: 9999999999;
+  position: relative;
+}
+
+
+.imgHome {
+  position: absolute;
+  z-index: -0.5;
+  right: 3%;
+top: 38%;
+}
