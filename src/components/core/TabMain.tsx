@@ -16,7 +16,7 @@ const menus = [
 ]
 
 function TabMain({}: Props) {
-    const [value, setValue] = React.useState('one');
+    const [value, setValue] = React.useState('Surah');
 
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);

@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  quran_apps_nextjs:
+    container_name: quran_apps_nextjs
+    image: qurans_apps_nextjs
+    environment:
+      - NODE_ENV=production
+    ports:
+      - "6000:6000"

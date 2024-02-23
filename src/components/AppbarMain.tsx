@@ -18,7 +18,7 @@ const StyledBadge = styled(Badge)<BadgeProps>(({ theme }) => ({
 
 const AppbarMain = () => {
   return (
-    <AppBar sx={{backgroundColor: 'white', border: 'none'}} className="appBar-main" elevation={0}>
+    <AppBar sx={{backgroundColor: 'white', border: 'none', zIndex:"10000000"}} className="appBar-main" elevation={0}>
        <Toolbar sx={{display: 'flex', justifyContent: 'space-between'}}>
         <MenuIcon sx={{color:'black'}}/>
         <Typography sx={{color: '#456D5F', fontWeight: '700'}}>  Quran Mazid </Typography>

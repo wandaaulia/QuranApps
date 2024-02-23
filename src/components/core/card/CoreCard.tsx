@@ -10,7 +10,7 @@ type Props = {
 
 function CoreCard({children, style,  onClick}: Props) {
   return (
-    <Card style={style} sx={{display: 'flex', flexDirection: 'row', alignItems: 'center', padding: '16px 10px', borderRadius: '10px'}} elevation={0}
+    <Card data-testid="card-surah" style={style} sx={{display: 'flex', flexDirection: 'row', alignItems: 'center', padding: '16px 10px', borderRadius: '10px'}} elevation={0}
     onClick={onClick}>
        {children}
         </Card>
